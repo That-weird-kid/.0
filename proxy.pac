@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, ".ro.blox.com") ||
     ) {
         // Replace with your proxy details
-        return "PROXY 142.111.48.253:7030";
+        return "PROXY 23.95.150.145:6114";
     }
 
     // --- EVERYTHING ELSE GOES DIRECT ---
