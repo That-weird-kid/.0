@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "snapchat.com") ||
         dnsDomainIs(host, "poki.com") ||
         shExpMatch(host, "*.roblox.com")
-        shExpMatch(host, "*.play.google.com")
+
     ) {
         // Replace with your proxy details
         return "PROXY 142.111.48.253:7030";
