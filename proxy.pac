@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "roblox.com") ||
         dnsDomainIs(host, "ro.blox.com") ||
         shExpMatch(host, "*.roblox.com")
+        shExpMatch(host, "*.ro.blox.com")
 
     ) {
         // Replace with your proxy details
