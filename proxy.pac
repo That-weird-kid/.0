@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
         dnsDomainIs(host, "snapchat.com") ||
         dnsDomainIs(host, "poki.com") ||
         dnsDomainIs(host, "roblox.com") ||
+        dnsDomainIs(host, "ro.blox.com") ||
         shExpMatch(host, "*.roblox.com")
 
     ) {
